@@ -1,0 +1,211 @@
+
+
+
+a:link, a:visited {
+    background-color: #EAB9D2FF;
+    color: white;
+    border: 0;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+}
+
+a:hover, a:active {
+    background-color: #e8a1c4;
+}
+
+.navbar navbar-expand-lg bg-light{
+    height: 20px;
+}
+
+.container-fluid{
+    background-color: rgba(183, 149, 224, 0.67);
+    height: 100px;
+}
+
+.intro-text {
+    position: relative;
+    text-align: center;
+    text-shadow: lightblue;
+    color: white;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-page {
+    background-image: url("https://mhernandez77.github.io/Portfolio/images/background.jpg"),
+    radial-gradient(lightblue,lightpink);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: relative;
+    z-index: initial;
+    height: 700px;
+}
+
+/**, *:before, *:after {*/
+ p::before{
+     content: "♥";
+    box-sizing: border-box;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    /*font-size: 3.25rem;*/
+    /*margin: 0 0 0.75rem 0;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.50rem;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #1e8db6;
+}
+
+section {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+/*div {*/
+/*    height: 100%;*/
+/*}*/
+
+.article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+}
+
+/* Pattern styles */
+.container {
+    display: table;
+    width: 100%;
+}
+
+.left-half {
+    /*background-color: slategrey;*/
+    position: absolute;
+    left: 0px;
+    width: 50%;
+}
+
+.right-half {
+    /*background-color: slateblue;*/
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
+#portrait {
+    display: block;
+    position: center;
+    margin-left: 10px;
+    /*or auto???*/
+    margin-right: -10px;
+    width: 30%;
+    height: 30%;
+}
+
+#about-me{
+    display: table;
+    background-image: radial-gradient(lightblue,lightpink);
+    width: 2000px;
+    height: 1200px;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: relative;
+    z-index: initial;
+    font-family: DengXian, Verdana, Helvetica;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0px 0px 10px #9F2DB0FF;
+}
+
+#about-me.container{
+    width: 100%;
+}
+
+.aboutme-page{
+    /*background-image: radial-gradient(lightblue,lightpink);*/
+    /*background-position: center;*/
+    /*background-repeat: repeat-x;*/
+    /*background-size: cover;*/
+    /*position: relative;*/
+    width: 10000px;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    color: #ff0090;
+    border: 1px;
+    flex-flow: row wrap;
+}
+
+.card {
+    margin: 8px;
+    display: inline-block;
+}
+
+#projects-page {
+    /*background-image: radial-gradient(lightpink, #F3ADADFF);*/
+    position: relative;
+    text-align: center;
+    /*text-shadow: hotpink;*/
+    color: white;
+    height: 800px;
+    /*background-color: lightgrey;*/
+    background-position: center;
+    background-repeat: repeat;
+    /*background-size: cover;*/
+    /*height: 1500px;*/
+    /*background-position: center;*/
+    /*background-repeat: repeat-x;*/
+    /*background-size: cover;*/
+    /*position: relative;*/
+    /*font-size: 24px;*/
+    /*!*color: lightslategrey;*!*/
+    /*vertical-align: middle;*/
+    /*text-shadow: 0px 0px 10px #000;*/
+    /*font-family: DengXian, Verdana, Helvetica;*/
+    /*text-align: match-parent;*/
+}
+
+
+.button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
