@@ -12,13 +12,11 @@ a:link, a:visited {
     font-size: larger;
 }
 
+
 a:hover, a:active {
     background-color: #e8a1c4;
 }
 
-.navbar navbar-expand-lg bg-light{
-    height: 20px;
-}
 
 .container-fluid{
     background-color: rgba(183, 149, 224, 0.67);
@@ -48,17 +46,9 @@ a:hover, a:active {
     height: 700px;
 }
 
-/**, *:before, *:after {*/
- p::before{
-     content: "♥";
-    box-sizing: border-box;
-    position: relative;
-}
 
 h1 {
     text-align: center;
-    /*font-size: 3.25rem;*/
-    /*margin: 0 0 0.75rem 0;*/
 }
 
 * {
@@ -78,10 +68,6 @@ section {
     width: 100%;
 }
 
-/*div {*/
-/*    height: 100%;*/
-/*}*/
-
 .article {
     position: absolute;
     top: 50%;
@@ -91,21 +77,18 @@ section {
     padding: 20px;
 }
 
-/* Pattern styles */
 .container {
     display: table;
     width: 100%;
 }
 
 .left-half {
-    /*background-color: slategrey;*/
     position: absolute;
     left: 0px;
     width: 50%;
 }
 
 .right-half {
-    /*background-color: slateblue;*/
     position: absolute;
     right: 0px;
     width: 50%;
@@ -124,8 +107,9 @@ section {
 #about-me{
     display: table;
     background-image: radial-gradient(lightblue,lightpink);
-    width: 2000px;
-    height: 1200px;
+    /*width:;*/
+    max-width: initial;
+    height: 1500px;
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
@@ -135,7 +119,8 @@ section {
     font-size: 24px;
     text-align: center;
     vertical-align: middle;
-    text-shadow: 0px 0px 10px #9F2DB0FF;
+    color: black;
+    /*text-shadow: 0px 0px 10px #9F2DB0FF;*/
 }
 
 #about-me.container{
@@ -143,12 +128,31 @@ section {
 }
 
 .aboutme-page{
-    /*background-image: radial-gradient(lightblue,lightpink);*/
-    /*background-position: center;*/
-    /*background-repeat: repeat-x;*/
-    /*background-size: cover;*/
-    /*position: relative;*/
     width: 10000px;
+}
+
+.bio-titles, .project-title{
+    font-family: sans-serif;
+    line-height: 150%;
+    color: #b795e0;
+    text-shadow: 0 2px 2px darkblue;
+}
+.bio-text{
+    font-family: Arial;
+    color: floralwhite;
+    text-shadow: black;
+}
+
+.title{
+    color: #fff;
+    font-size: 1.50rem;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #1e8db6;
+}
+
+.skills-title, .name, .school, .connect-title{
+    color: hotpink;
 }
 
 .button{
@@ -157,8 +161,10 @@ section {
     display: flex;
     text-align: center;
     color: whitesmoke;
-
+    background-color: #e8a1c4;
 }
+
+
 
 .container {
     text-align: center;
@@ -170,37 +176,16 @@ section {
 }
 
 .card {
+    background-image: radial-gradient(rgba(187, 165, 239, 0.55), rgba(217, 171, 171, 0.7));
     margin: 8px;
     display: inline-block;
-}
-
-#projects-page {
-    /*background-image: radial-gradient(lightpink, #F3ADADFF);*/
-    position: relative;
-    text-align: center;
-    /*text-shadow: hotpink;*/
-    color: white;
-    height: 800px;
-    /*background-color: lightgrey;*/
-    background-position: center;
-    background-repeat: repeat;
-    /*background-size: cover;*/
-    /*height: 1500px;*/
-    /*background-position: center;*/
-    /*background-repeat: repeat-x;*/
-    /*background-size: cover;*/
-    /*position: relative;*/
-    /*font-size: 24px;*/
-    /*!*color: lightslategrey;*!*/
-    /*vertical-align: middle;*/
-    /*text-shadow: 0px 0px 10px #000;*/
-    /*font-family: DengXian, Verdana, Helvetica;*/
-    /*text-align: match-parent;*/
+    text-shadow: 0 2px 2px #A18088FF;
 }
 
 
-.button:hover {
-    background-color: #555;
+
+.btn-primary:hover {
+    background-color: #e8a1c4;
 }
 
 @media screen and (max-width: 650px) {

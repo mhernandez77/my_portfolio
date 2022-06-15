@@ -15,12 +15,12 @@
 
 <nav id="top-page" class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="https://mhernandez77.github.io/Portfolio/">Maleni Hernandez</a>
+        <h1>Hello World</h1>
             <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="#top-page">Home</a>
+                <a class="nav-link" aria-current="page" href="">Home</a>
                 <a class="nav-link" href="#about-me">About</a>
-                <a class="nav-link" href="#projects">Projects</a>
-                <a class="nav-link disabled" href="#">Contact</a>
+                <a class="nav-link" href="#projects-page">Projects</a>
+                <a class="nav-link" href="#contact-me">Contact</a>
             </div>
     </div>
 </nav>
@@ -33,13 +33,13 @@
 
 <section class="container" id="about-me" class="aboutme-page">
     <div class="title">
-        <h1>ABOUT ME</h1>
+<!--        <h1>ABOUT ME</h1>-->
     </div>
     <article>
         <div class="left-half">
-            <h2>Left Half</h2>
+            <h2 class="bio-titles">INTRODUCTION</h2>
                 <iframe width="420" height="315" src="https://www.youtube.com/embed/MZVicxBAi94"></iframe>
-                     <h4>SKILLS</h4>
+                     <h1 class="skills-title">SKILLS</h1>
                     <img src="./icons/html_icon.png" alt="HTML" width="75" height="75"/>
                     <img src="./icons/css_styles_icon.png" alt="CSS" width="75" height="75"/>
                     <img src="./icons/javascript_icon.png" alt="JS" width="75" height="75"/>
@@ -48,17 +48,17 @@
 
         <article>
             <div class="right-half">
-                 <h1>Right Half</h1>
-                    <img src="/images/maleni.JPG" alt="Maleni" width="500" height="500"/>
-                    <H5>MIT X PRO Student</H5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                        <div>
-                            <address class="contact-me">
-                                <h1>CONNECT WITH ME</h1>
+                 <h1 class="bio-titles">BIOGRAPHY</h1>
+                    <div class="bio-text">
+                        <img src="/images/maleni.JPG" alt="Maleni" width="500" height="500"/>
+                        <H3 class="name">Maleni Hernandez</H3>
+                        <H3 class="school"> MIT X PRO Student</H3>
+                        <p>As a person that appreciates the evolution of arts and nature, I’ve always gravitated toward the many branches of Science. To follow my fascination of Natural Sciences, I graduated from The University of Texas at Austin with a Bachelor of Science and Arts in Biochemistry with certificates in Forensic Science and Pre-Health Professions. Right after completing my degree,  I worked as a lab assistant and research technician in medical and research laboratories. During my experiences in the medical and science field, I quickly learned that I possess versatile skills that I believe I could apply to the creative and problem-solving world of tech. Technology is a vast world that I’m excited to break into and be a part of a vision that improves the world using code.
+                        My interests include trying new foods, trying new makeup products, listening to music, going on walks, watching Korean dramas, and enjoying nature. I also enjoy giving back to my community by volunteering as a mentor to middle school girls.
+                        </p>
+                    </div>
+                            <address id="contact-me">
+                                <h1 class="connect-title">CONNECT WITH ME</h1>
                                 <a href="mailto:@maleni.alexis@gmail.com">Send email</a>
                                 <a href="https://www.linkedin.com/in/maleni-hernandez-546180169/" target=_blank"><img src="./icons/linkedin_icon.png" alt="linkedIn" width="60" height="60"/></a>
                                 <a href="https://github.com/mhernandez77" target="_blank"><img src="./icons/github_icon.png" alt="GitHub" width="60" height="60"/></a>
@@ -69,40 +69,40 @@
 </section>
 
 <section>
-    <h1>PROJECTS</h1>
-<div id="projects-page" class="row" >
-    <div class="col-sm-6">
+    <h1 id="projects-page" class="project-title"> PROJECTS</h1>
+<div class="row" >
+    <div class="col">
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title"><img src="https://mhernandez77.github.io/Portfolio/icons/pacman_icon.png" width="35px"  alt="pacman">
                     Pacmen Exercise</h5>
                 <p class="card-text">Create your pacmen with a click of a button and start paying the game to make them bounce off wall.
                     Speed up your pacmen by clicking the start game as many times as you like! </p>
-                <a href="https://github.com/mhernandez77/pacmen_exercise" class="btn btn-primary">Github Repo</a>
-                <a href="https://mhernandez77.github.io/pacmen_exercise/" class="btn btn-primary">Live Project</a>
+                <a href="https://github.com/mhernandez77/pacmen_exercise" class="btn-primary">Github Repo</a>
+                <a href="https://mhernandez77.github.io/pacmen_exercise/" class="btn-primary">Live Project</a>
             </div>
         </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col">
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title"><img src="https://mhernandez77.github.io/Portfolio/icons/eye_icon.png" width="35px" alt="eyes">
                     Eye Movement Project</h5>
                 <p class="card-text">Move your mouse and watch how these sets of eyes move. The DOM elements are triggered by the movements of your mouse,
                     and the elements stay within the eye area like a real eye.</p>
-                <a href="https://github.com/mhernandez77/eye_movement" class="btn btn-primary">Github Repo</a>
-                <a href="https://mhernandez77.github.io/eye_movement/" class="btn btn-primary">Live Project</a>
+                <a href="https://github.com/mhernandez77/eye_movement" class="btn-primary">Github Repo</a>
+                <a href="https://mhernandez77.github.io/eye_movement/" class="btn-primary">Live Project</a>
             </div>
         </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col">
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title"><img src="https://mhernandez77.github.io/Portfolio/icons/marker_icon.png" width="35px" alt="map"/>
                     Real Time Bus Tracker</h5>
                 <p class="card-text">Follow the marker to see where Bus Line 1 stops between MIT and Harvard.</p>
-                <a href="https://github.com/mhernandez77/real_time_bus_tracking" class="btn btn-primary">Github Repo</a>
-                <a href="https://mhernandez77.github.io/real_time_bus_tracking/" class="btn btn-primary">Live Project</a>
+                <a href="https://github.com/mhernandez77/real_time_bus_tracking" class="btn-primary">Github Repo</a>
+                <a href="https://mhernandez77.github.io/real_time_bus_tracking/" class="btn-primary">Live Project</a>
             </div>
         </div>
     </div>
