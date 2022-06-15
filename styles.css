@@ -17,6 +17,11 @@ a:hover, a:active {
     background-color: #e8a1c4;
 }
 
+.name-brand{
+    text-shadow: lightblue;
+    color: white;
+
+}
 
 .container-fluid{
     background-color: rgba(183, 149, 224, 0.67);
@@ -164,7 +169,10 @@ section {
     background-color: #e8a1c4;
 }
 
-
+#email-button{
+    color: black;
+    text-shadow: none;
+}
 
 .container {
     text-align: center;
